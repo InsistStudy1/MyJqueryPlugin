@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        div {
+            width: 500px;
+            height: 500px;
+        }
+    </style>
+    <script src="core.js"></script>
+    <script src="attr&style.js"></script>
+    <script src="dom.js"></script>
+    <script src="ajax.js"></script>
+    <script src="pie.js"></script>
+</head>
+<body>
+<div></div>
+</body>
+<script>
+    $('div').pipe([
+        {
+            val:20,
+            msg:"web前端工程师"
+        },
+        {
+            val:15,
+            msg:"UI工程师"
+        },
+        {
+            val:18,
+            msg:"Java工程师"
+        },
+        {
+            val:10,
+            msg:"运维工程师"
+        },
+        {
+            val:5,
+            msg:"软件测试员"
+        },
+        {
+            val:13,
+            msg:"python工程师"
+        }
+    ]);
+</script>
+</html>
